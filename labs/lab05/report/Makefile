@@ -19,6 +19,7 @@ FILTERS += --filter pandoc-crossref
 PDF_ENGINE += --pdf-engine=lualatex --pdf-engine-opt=--shell-escape
 OPTIONS += --number-sections
 BIB_OPTIONS = --citeproc
+
 PDF_BIB_OPTIONS = --citeproc
 # PDF_BIB_OPTIONS = --biblatex
 
